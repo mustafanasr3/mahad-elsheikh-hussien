@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="820" viewBox="0 0 1320 820"><defs>
+    <linearGradient id="hero" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#e0e7ff" />
+    </linearGradient>
+    <linearGradient id="deep" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1d4ed8" />
+      <stop offset="1" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="photo" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dbeafe" />
+      <stop offset="1" stop-color="#a5b4fc" />
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#e0e7ff" />
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0f172a" flood-opacity=".09" />
+    </filter>
+    <clipPath id="photoClip"><rect x="0" y="0" width="310" height="340" rx="26" /></clipPath>
+    <clipPath id="thumbClip"><rect x="0" y="0" width="256" height="126" rx="16" /></clipPath>
+    
+  </defs>
+  <g>
+    <rect width="1320" height="820" rx="24" fill="#fff" filter="url(#shadow)" />
+    <rect x="1" y="1" width="1318" height="818" rx="23" fill="none" stroke="#e2e8f0" />
+    <rect x="0" y="0" width="1320" height="76" rx="24" fill="#fff" />
+    <path d="M0 76H1320" stroke="#f1f5f9" />
+    <rect x="1168" y="18" width="38" height="38" rx="13" fill="#1e3a8a" />
+    <path d="M1178 45l9-19 9 19m-14-6h10" stroke="#ead7af" stroke-width="2" fill="none" stroke-linecap="round" />
+    <text x="1155" y="34" text-anchor="end" font-size="17" font-weight="700" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554">معهد هدى للناس</text>
+    <text x="1155" y="53" text-anchor="end" font-size="11" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b">للعلم النافع والعمل الصالح</text>
+    <text x="805" y="46" text-anchor="middle" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="14">الرئيسية</text>
+    <text x="680" y="46" text-anchor="middle" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="14">البرامج</text>
+    <text x="560" y="46" text-anchor="middle" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="14">الدروس</text>
+    <text x="445" y="46" text-anchor="middle" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="14">عن المعهد</text>
+    <rect x="85" y="18" width="195" height="40" rx="12" fill="#1e3a8a" />
+    <text x="182" y="44" text-anchor="middle" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#ffffff" font-size="14">حساب الطالب</text>
+    <rect x="0" y="77" width="1320" height="250" fill="url(#deep)" />
+    <circle cx="1174" cy="202" r="70" fill="#fff" opacity=".08" />
+    <circle cx="1174" cy="202" r="52" fill="#fff" opacity=".08" />
+    <text x="1220" y="139" text-anchor="end" font-size="14" fill="#c7d2fe" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif">البرنامج العلمي · ٠١</text>
+    <text x="1220" y="194" text-anchor="end" font-size="34" font-weight="700" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#ffffff">السنن والآثار</text>
+    <text x="1220" y="228" text-anchor="end" font-size="15" fill="#dce8df" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif">صلةٌ بكتب السنة، وبصيرةٌ في دراستها</text>
+    <text x="1220" y="266" text-anchor="end" font-size="13" fill="#dce8df" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif">مسار متدرّج يجمع التأصيل، القراءة، ومتابعة الدروس</text>
+    <rect x="150" y="143" width="264" height="54" rx="15" fill="#c7d2fe" />
+    <text x="282" y="176" text-anchor="middle" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="14">طلب الالتحاق بالبرنامج</text>
+    <text x="130" y="285" font-size="12" fill="#dce8df" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif">لطلاب العلم والمهتمين بالسنة</text>
+    <text x="1250" y="375" text-anchor="end" font-size="22" font-weight="700" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554">عن البرنامج</text>
+    <text x="1250" y="405" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="16">قراءةٌ متأنية في أهم الكتب الجامعة للأحاديث والآثار، ضمن خطة واضحة</text>
+    <text x="1250" y="431" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="16">تساعد الطالب على بناء فهم متماسك، لا الاكتفاء بالفوائد المتفرقة.</text>
+    <rect x="770" y="468" width="480" height="280" rx="18" fill="#f6f7f2" stroke="#e2e8f0" />
+    <text x="1215" y="506" text-anchor="end" font-size="18" font-weight="700" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554">محاور البرنامج</text>
+    <circle cx="1195" cy="550" r="13" fill="#e0e7ff" /><text x="1195" y="554" text-anchor="middle" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="12">١</text>
+    <text x="1168" y="555" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="16">مدخل إلى علوم السنة</text>
+    <circle cx="1195" cy="592" r="13" fill="#e0e7ff" /><text x="1195" y="596" text-anchor="middle" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="12">٢</text>
+    <text x="1168" y="597" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="16">الكتب الجامعة للأحاديث والآثار</text>
+    <circle cx="1195" cy="634" r="13" fill="#e0e7ff" /><text x="1195" y="638" text-anchor="middle" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="12">٣</text>
+    <text x="1168" y="639" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="16">منهج القراءة والتقييد</text>
+    <circle cx="1195" cy="676" r="13" fill="#e0e7ff" /><text x="1195" y="680" text-anchor="middle" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="12">٤</text>
+    <text x="1168" y="681" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="16">المراجعة وبناء خطة متابعة</text>
+    <rect x="72" y="468" width="660" height="280" rx="18" fill="#fff" stroke="#e2e8f0" />
+    <text x="695" y="506" text-anchor="end" font-size="18" font-weight="700" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554">خطة مقترحة</text>
+    <rect x="98" y="528" width="608" height="42" rx="9" fill="#eef3ed" />
+    <text x="680" y="554" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="12">المرحلة</text><text x="480" y="554" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="12">المحور</text><text x="260" y="554" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="12">النشاط</text>
+    <path d="M98 581H706M98 628H706M98 675H706M98 722H706" stroke="#f1f5f9" />
+    <text x="680" y="603" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="12">الأولى</text><text x="480" y="603" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="12">مدخل السنة</text><text x="260" y="603" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="12">قراءة وتلخيص</text>
+    <text x="680" y="650" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="12">الثانية</text><text x="480" y="650" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="12">الكتب الجامعة</text><text x="260" y="650" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="12">درس أسبوعي</text>
+    <text x="680" y="697" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="12">الثالثة</text><text x="480" y="697" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#172554" font-size="12">المراجعة</text><text x="260" y="697" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="12">متابعة وتطبيق</text>
+    <text x="680" y="740" text-anchor="end" font-family="Cairo, Noto Sans Arabic, Arial, sans-serif" fill="#64748b" font-size="12">تُراجع الخطة مع المشرف حسب تقدّم الطالب.</text>
+  </g>
+
+  
+  </svg>

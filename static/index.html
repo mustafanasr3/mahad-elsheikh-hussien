@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>معهد هدى للناس</title>
+<meta name="description" content="معهد علمي متخصص في دراسة كتب السنة النبوية وعلوم الآثار، وتعليم القرآن الكريم — للشيخ حسين عبد الرازق.">
+<link rel="icon" type="image/jpeg" href="/img/sheikh.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><div class="nav">
+  <a class="logo" href="#home"><img id="lg" alt=""><span><b id="brand"></b><small id="sheikh"></small></span></a>
+  <button class="ham" id="ham" type="button" aria-label="القائمة" data-act="menu">☰</button>
+  <nav class="links" id="nav"></nav>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="التبديل إلى الوضع الداكن" title="التبديل إلى الوضع الداكن">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"/></svg>
+  </button>
+  <div class="account-menu" id="account-menu" hidden>
+    <button class="account-trigger" id="profile-toggle" type="button" data-act="profile-toggle" aria-haspopup="menu" aria-expanded="false" aria-controls="profile-dropdown">
+      <span class="gender-avatar" id="header-avatar" aria-hidden="true"></span>
+      <span class="account-name" id="header-name"></span>
+      <svg class="account-chevron" viewBox="0 0 20 20" aria-hidden="true"><path d="m5 7 5 5 5-5"/></svg>
+    </button>
+    <div class="account-dropdown" id="profile-dropdown" role="menu" hidden>
+      <a href="#account" role="menuitem">ملفي الشخصي</a>
+      <button type="button" data-act="logout" role="menuitem">تسجيل خروج</button>
+    </div>
+  </div>
+  <a class="btn" id="tgbtn" href="#" target="_blank" rel="noopener">قناة الشيخ حسين</a>
+</div></header>
+<main id="app"><section><p class="sub">جارٍ التحميل…</p></section></main>
+<footer id="foot"></footer>
+
+<div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="mtitle" hidden>
+  <div class="mbox">
+    <div class="mhead"><h3 id="mtitle"></h3><button type="button" class="mclose" data-act="close" aria-label="إغلاق">✕</button></div>
+    <div class="mplayer" id="mplayer"></div>
+    <div class="mfoot" id="mfoot"></div>
+  </div>
+</div>
+<div id="toast" class="toast" role="status" hidden></div>
+<script src="/app.js"></script>
+</body>
+</html>

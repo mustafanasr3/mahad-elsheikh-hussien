@@ -50,6 +50,7 @@ python server.py
 - شغّله خلف HTTPS (nginx/Caddy) وفعّل: `SECURE_COOKIE=1 TRUST_PROXY=1`.
 - المتغيرات: `PORT` (8000) · `HOST` (0.0.0.0) · `DB_PATH` (مسار قاعدة البيانات).
 - النسخ الاحتياطي: انسخ ملف `mahad.db` ومجلد `static/uploads/`.
+- **معاينة على Render:** افتح [لوحة Render](https://dashboard.render.com/blueprint/new?repo=https://github.com/mustafanasr3/mahad-elsheikh-hussien) بعد رفع المستودع، وراجع الإعدادات ثم أنشئ الخدمة. ينشئ Render كلمة مرور المشرف تلقائيًا؛ اعرضها من متغير `ADMIN_PASS` في إعدادات الخدمة. الخطة المجانية تستخدم تخزينًا مؤقتًا، لذلك قد تُمسح قاعدة البيانات والملفات المرفوعة عند إعادة تشغيل الخدمة أو نشر تحديث. لا تستخدمها لبيانات حقيقية أو دائمة؛ يلزم تخزين دائم ونسخ احتياطية لذلك.
 
 ## الهيكل
 ```

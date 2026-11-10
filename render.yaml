@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: mahad-elsheikh-hussien
+    runtime: python
+    plan: free
+    buildCommand: echo "No external dependencies to install"
+    startCommand: python server.py
+    healthCheckPath: /
+    envVars:
+      - key: ADMIN_USER
+        value: admin
+      - key: ADMIN_PASS
+        generateValue: true
+      - key: SECURE_COOKIE
+        value: "1"
